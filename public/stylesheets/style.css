@@ -1,0 +1,146 @@
+body {
+	padding:0;
+	margin:0;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+h1 {
+	margin:0px;
+}
+img {
+	outline:none;
+}
+a {
+	cursor:pointer;
+	text-decoration:none;
+}
+ul{
+	list-style:none;
+	}
+.logo {
+	background:url(../images/ynl-logo.png) no-repeat;
+	margin:5px 0px;
+	float: Left;
+	display:inline;
+	width:150px;
+	height:31px;
+}
+.sign_up_btn {
+	cursor:pointer;
+	margin:7px 0 0 5px;
+}
+
+#wrapper {
+	height:auto;
+	margin:auto;
+	width: 100%;
+	background:#EFF7FF;
+}
+<!--
+[if IE 6]>  #header {
+ background:url(../images/header_bg.jpg) repeat-x;
+ height: 45px;
+ margin: 0 auto;
+ width: 100%;
+}
+#header_data {
+	height: 45px;
+	margin: 0 auto;
+	width: 950px;
+}
+.logo {
+	background:url(../images/ynl-logo_IE.png) no-repeat;
+	margin:5px 0px;
+	float: Left;
+	width:150px;
+	height:31px;
+}
+.logo_div{
+	padding-left:0px !important;}
+ <![endif]
+-->
+ #header_data {
+ height: 42px;
+ margin: 0 auto;
+ width: 950px;
+}
+#header {
+	background-color: #227799;
+	box-shadow: 0 3px 3px #D2D9E0;
+	border-bottom: 1px solid #075878;
+	height: 42px;
+	margin: 0 auto;
+	width: 100%;
+}
+a {
+	text-decoration:none;
+	font:12px/42px arial;
+}
+#header a {
+	text-decoration:none;
+	color:white;
+	font:12px/42px arial;
+	display:block;
+	padding:0 15px;
+}
+#header a:hover {
+	background:#EFF7FF;
+	color:#227799;
+}
+#header ul {
+	list-style:none;
+	float:right;
+	display:inline;
+	margin:0;
+	padding-left:80px;
+}
+#header ul li {
+	float: left;
+	display:inline;
+	color:white;
+	font:12px/42px arial;
+}
+#container {
+	width:955px;
+	margin:auto;
+	height:auto;
+}
+#index_con {
+	margin:80px 0 0 80px;
+	height:440px;
+	width:790px;
+}
+#index_left {
+	height:305px;
+	width:425px;
+	margin:25px 0px;
+	float:left;
+	display:inline;
+}
+#index_left h1 {
+	font:24px/32px Georgia, "Times New Roman", Times, serif;
+	color:#227799;
+	text-align:center;
+}
+#index_left h2 {
+	font:bold 14px/20px Verdana, Geneva, sans-serif;
+	margin:30px 0;
+	text-align:center;
+}
+#index_right {
+	height:100%;
+	width:280px;
+	float:right;
+	display:inline;
+}
+.img{
+	width:30px;
+	height:30px;
+	border:1px solid #BBBBBB;
+	background:white;
+	text-align:center;
+	float:left;
+	display:inline;
+	}
+.img img{
+	padding:2px 0 0 0;
+	}

@@ -1,0 +1,92 @@
+/* LAYOUT FOR STEP I and STEP II */
+
+.fields .feild_list {
+	float: left;
+    width: 390px !important;
+}
+.fields .feild_list ul li {
+	float: left;
+	width: 70px;
+	height: 100px;
+	font-size: 10px;
+	font-weight: normal;
+	text-align: center;
+	margin: 0 8px 0 0;
+	color: #888888;
+    font: 9px/12px Verdana,Geneva,sans-serif;
+}
+.fields .feild_list .feild_img_checkbox {
+	width: 70px;
+	height: 70px;
+	margin-bottom: 5px;
+    float: left;
+}
+.fields .feild_list .feild_img_checkbox .feild_checkbox {
+	bottom: 15px;
+	left: 0;
+	position: relative;
+	background: #FFFFFF;
+	border: 1px solid #0000FF
+}
+.fields .feild_list ul li img {
+    width: 70px;
+    height: 70px;
+}
+
+.stages_checkbox {
+  margin-bottom: 8px;
+}
+.common_link {
+  background-color: #f5faff;
+  border: 1px solid #cbdbeb;
+  width: 278px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  margin-top: 16px;
+  font-family: Georgia;
+  font-size: 12px;
+  color: #222;
+  font-style: italic;
+  text-shadow: 1px 1px #fff;
+}
+.common_link a {
+  color: #034ea2;
+}
+.field_title {
+  font-family: Georgia;
+  font-size: 12px;
+  padding-left: 26px;
+  color: #444;
+  padding-bottom: 12px;
+  font-style: italic;
+  text-align: left;
+}
+
+.main_title {
+  font-family: Georgia;
+  font-size: 30px;
+  color: #279;
+  text-align: center;
+  padding: 20px 0;
+  font-weight: normal;
+  font-family: Gergia;
+}
+.left_arrow{
+	width: 37px; 
+	display: inline; 
+	float:left;
+	padding:0 5px 0 0;
+	}
+.right_arrow{
+	float:right;
+	display:inline;
+	width: 37px;}
+.fields{
+	width:470px;
+	}
+
+.fields  ul{
+	padding:0;
+	}
+

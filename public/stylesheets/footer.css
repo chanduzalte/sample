@@ -1,0 +1,38 @@
+#footer{
+	height:30px;
+	width:100%;
+	background:white;
+	border-top:1px solid #E6E6E6;
+	}
+#footer_data{
+	width:950px;
+	height:100%;
+	margin:auto;
+	}
+#footer_data ul li a{
+	font:12px/30px Verdana, Geneva, sans-serif;
+	color:#1166BB;
+	padding:0 20px 0 0px;
+	}
+#footer_data ul a:hover{
+	font:12px/30px Verdana, Geneva, sans-serif;
+	color:#444444;
+	}
+#footer_data ul{
+	list-style:none;
+	padding:0;
+	margin:0;
+	float:left;
+	display:inline;
+	}
+#footer_data ul li{
+	float:left;
+	display:inline;
+	}
+#footer_data p{
+	margin:0;
+	padding:0;
+	float:right;
+	display:inline;
+	font:11px/30px Verdana, Geneva, sans-serif;
+	color:#606060;

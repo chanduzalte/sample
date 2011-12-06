@@ -1,0 +1,24 @@
+#menu
+	%a.a{:href => "#"}
+		%span
+	%a.b{:href => "#"}
+		%span
+	%a.c{:href => "#"}
+		%span
+	%a.d{:href => "#"}
+		%span
+:javascript
+	$(document).ready(function(){
+		$('#menu a').hover(function(){
+		if($(this).attr('class') != 'c')
+		{
+			$('.c').removeClass('cactive').find('span').removeClass('show');
+		}
+		$(this).find('span').addClass('show'); 
+	},
+	function(){
+		$(this).find('span').removeClass('show');
+		if($(this).attr('class') != 'c')
+			$('.c').addClass('cactive').find('span').addClass('show');
+		});
+	});

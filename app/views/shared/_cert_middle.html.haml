@@ -1,0 +1,22 @@
+.cert_middle
+	.add_cert
+		.add_cert_div
+			%input.add_cert_btn{:type=>"button", :name=>"", :value=>"Add a Certificate Course"}/
+		.brws_cert
+			%a{:href=>"#", :title=>"Browse Certificate Courses 5"}
+				Browse Certificate Courses 5
+		.cf
+		.suggest_form
+			=render :partial => "shared/suggest_form"
+			.white
+		.bottom_btn
+			.add_cert_div
+				%input.add_cert_btn{:type=>"button", :name=>"", :value=>"Add a Certificate Course"}/
+			.brws_cert.add_cert_btn
+				%a{:href=>"#", :title=>"Browse Certificate Courses 5"}
+					Browse Certificate Courses 5
+	.cf
+	.cert_tab
+		=render :partial => "shared/list"
+	.cf
+	

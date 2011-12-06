@@ -1,0 +1,499 @@
+Started GET "/example/index" for 127.0.0.1 at Thu Dec 01 15:55:09 +0530 2011
+  Processing by ExampleController#index as HTML
+Rendered shared/_header.html.haml (4.0ms)
+Rendered shared/_footer.html.haml (4.0ms)
+Rendered example/index.html.erb within layouts/example (21.0ms)
+Completed 200 OK in 37ms (Views: 37.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/example/home" for 127.0.0.1 at Thu Dec 01 15:55:10 +0530 2011
+  Processing by ExampleController#home as HTML
+Rendered shared/_header.html.haml (4.0ms)
+Rendered shared/_footer.html.haml (3.0ms)
+Rendered example/home.html.haml within layouts/example (22.0ms)
+Completed 200 OK in 41ms (Views: 40.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/example/home" for 127.0.0.1 at Thu Dec 01 15:55:34 +0530 2011
+  Processing by ExampleController#home as HTML
+Rendered shared/_header.html.haml (3.0ms)
+Rendered shared/_footer.html.haml (4.0ms)
+Rendered example/home.html.haml within layouts/example (23.0ms)
+Completed 200 OK in 39ms (Views: 39.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/example/index" for 127.0.0.1 at Thu Dec 01 15:55:40 +0530 2011
+  Processing by ExampleController#index as HTML
+Rendered shared/_header.html.haml (4.0ms)
+Rendered shared/_footer.html.haml (4.0ms)
+Rendered example/index.html.erb within layouts/example (49.0ms)
+Completed 200 OK in 71ms (Views: 70.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/example/index2" for 127.0.0.1 at Thu Dec 01 15:55:41 +0530 2011
+  Processing by ExampleController#index2 as HTML
+Rendered shared/_header.html.haml (4.0ms)
+Rendered shared/_footer.html.haml (3.0ms)
+Rendered example/index2.html.haml within layouts/example (21.0ms)
+Completed 200 OK in 39ms (Views: 39.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/example/index2" for 127.0.0.1 at Thu Dec 01 15:55:57 +0530 2011
+  Processing by ExampleController#index2 as HTML
+Rendered shared/_header.html.haml (15.6ms)
+Rendered shared/_footer.html.haml (0.0ms)
+Rendered example/index2.html.haml within layouts/example (15.6ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/example/home" for 127.0.0.1 at Thu Dec 01 15:55:58 +0530 2011
+  Processing by ExampleController#home as HTML
+Rendered shared/_header.html.haml (3.0ms)
+Rendered shared/_footer.html.haml (3.0ms)
+Rendered example/home.html.haml within layouts/example (23.0ms)
+Completed 200 OK in 43ms (Views: 43.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/example/home" for 127.0.0.1 at Thu Dec 01 16:02:46 +0530 2011
+  Processing by ExampleController#home as HTML
+ERROR: compiling _app_views_layouts_example_html_haml___414429493_122931372_0 RAISED compile error
+e:/workspace/sample/app/views/layouts/example.html.haml:4: syntax error, unexpected kENSURE, expecting $end
+Function body:           def _app_views_layouts_example_html_haml___414429493_122931372_0(local_assigns)
+            _old_virtual_path, @_virtual_path = @_virtual_path, "layouts/example";_old_output_buffer = @output_buffer;;begin;extend Haml::Helpers;_ham
+lout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:escape_html=>true, :escape_attrs=>true, :preserve=>["textarea", "pre", "code"], :format=>:html5
+, :attr_wrapper=>"'", :encoding=>nil, :autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :ugly=>false});_erbout
+ = _hamlout.buffer;__in_erb_template = true;; content_for :stylesheet
+_hamlout.push_text("<style>\n  /*<![CDATA[*/\n    body{\n    \tpadding:0;\n    \tmargin:0;\n    \t}\n    #wrapper {\n    \theight:auto;\n    \tmargin:
+auto;\n    \twidth: 100%;\n    \t}\n    #header_data, #footer_data {\n    \t\theight: 42px;\n    \t\tmargin: 0 auto;\n    \t\twidth: 900px;\n    \t\t}
+\n    #header, #footer{\n    \t\tbackground-color: #227799;\n    \t\tbox-shadow: 0 5px 5px #D2D9E0;\n    \t\tborder-bottom: 1px solid #075878;\n    \t
+\theight: 42px;\n    \t\tmargin: 0 auto;\n    \t\twidth: 100%;\n    \n    \t}\n    .logo {\n    \t\tmargin: 0 0 0 100px;\n    \t\tpadding: 5px;\n    \
+t\tfloat: Left;\n    \t\t}\n    a {\n    \ttext-decoration:none;\n    \tcolor:white;\n    \tfont:12/42px arial;\n    \t}\n     ul{\n    \tlist-style:n
+one;\n    \tfloat:right;\n    \tmargin:0;\n    \t}\n     ul li{\n    \tpadding:0 5px;\n    \tfloat: left;\n    \tcolor:white;\n    \tfont:12/42px aria
+l;\n    \t}\n    #container{\n    \twidth:900px;\n    \tmargin:auto;}\n  /*]]>*/\n</style>\n", 0, false);end
+::Haml::Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer.upper;end;
+          ensure
+            @_virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: e:/workspace/sample/app/views/layouts/example.html.haml:4:in `compile'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_view/template.rb:134:in `render'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/activesupport-3.0.9/lib/active_support/notifications.rb:54:in `instrument'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_view/template.rb:127:in `render'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_view/render/layouts.rb:80:in `_render_layout'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_view/render/rendering.rb:62:in `_render_template'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/activesupport-3.0.9/lib/active_support/notifications.rb:52:in `instrument'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/activesupport-3.0.9/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/activesupport-3.0.9/lib/active_support/notifications.rb:52:in `instrument'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_view/render/rendering.rb:56:in `_render_template'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_view/render/rendering.rb:26:in `render_without_haml'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/haml-3.1.3/lib/haml/helpers/action_view_mods.rb:13:in `render'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/abstract_controller/rendering.rb:115:in `_render_template'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/abstract_controller/rendering.rb:109:in `render_to_body'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_controller/metal/renderers.rb:47:in `render_to_body'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_controller/metal/compatibility.rb:55:in `render_to_body'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/abstract_controller/rendering.rb:102:in `render_to_string'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/abstract_controller/rendering.rb:93:in `render'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_controller/metal/rendering.rb:17:in `render'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_controller/metal/instrumentation.rb:40:in `render'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/activesupport-3.0.9/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/activesupport-3.0.9/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_controller/metal/instrumentation.rb:40:in `render'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/activerecord-3.0.9/lib/active_record/railties/controller_runtime.rb:15:in `cleanup_view_runtime'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_controller/metal/instrumentation.rb:39:in `render'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/abstract_controller/base.rb:150:in `process_action'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_controller/metal/rendering.rb:11:in `process_action'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/abstract_controller/callbacks.rb:18:in `process_action'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/activesupport-3.0.9/lib/active_support/callbacks.rb:436:in `_run__807047829__process_action__516519
+628__callbacks'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/activesupport-3.0.9/lib/active_support/callbacks.rb:410:in `send'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/activesupport-3.0.9/lib/active_support/callbacks.rb:410:in `_run_process_action_callbacks'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/activesupport-3.0.9/lib/active_support/callbacks.rb:94:in `send'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/activesupport-3.0.9/lib/active_support/callbacks.rb:94:in `run_callbacks'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/abstract_controller/callbacks.rb:17:in `process_action'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/activesupport-3.0.9/lib/active_support/notifications.rb:52:in `instrument'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/activesupport-3.0.9/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/activesupport-3.0.9/lib/active_support/notifications.rb:52:in `instrument'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_controller/metal/rescue.rb:17:in `process_action'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/abstract_controller/base.rb:119:in `process'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/abstract_controller/rendering.rb:41:in `process'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_controller/metal.rb:138:in `dispatch'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_controller/metal.rb:178:in `action'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/routing/route_set.rb:62:in `call'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/routing/route_set.rb:62:in `dispatch'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/routing/route_set.rb:27:in `call'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:148:in `call'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:93:in `recognize'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:68:in `optimized_each'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:92:in `recognize'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:139:in `call'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/routing/route_set.rb:493:in `call'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/head.rb:14:in `call'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/rack-1.2.4/lib/rack/methodoverride.rb:24:in `call'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/flash.rb:182:in `call'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/session/abstract_store.rb:149:in `call'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/cookies.rb:302:in `call'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/activerecord-3.0.9/lib/active_record/query_cache.rb:32:in `call'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/activerecord-3.0.9/lib/active_record/connection_adapters/abstract/query_cache.rb:28:in `cache'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/activerecord-3.0.9/lib/active_record/query_cache.rb:12:in `cache'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/activerecord-3.0.9/lib/active_record/query_cache.rb:31:in `call'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/activerecord-3.0.9/lib/active_record/connection_adapters/abstract/connection_pool.rb:354:in `call'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/callbacks.rb:46:in `call'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/activesupport-3.0.9/lib/active_support/callbacks.rb:416:in `_run_call_callbacks'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/callbacks.rb:44:in `call'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/rack-1.2.4/lib/rack/sendfile.rb:106:in `call'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/railties-3.0.9/lib/rails/rack/logger.rb:13:in `call'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/rack-1.2.4/lib/rack/runtime.rb:17:in `call'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/activesupport-3.0.9/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/rack-1.2.4/lib/rack/lock.rb:11:in `call'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/rack-1.2.4/lib/rack/lock.rb:11:in `synchronize'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/rack-1.2.4/lib/rack/lock.rb:11:in `call'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/static.rb:30:in `call'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/railties-3.0.9/lib/rails/application.rb:168:in `call'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/railties-3.0.9/lib/rails/application.rb:77:in `send'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/railties-3.0.9/lib/rails/application.rb:77:in `method_missing'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/railties-3.0.9/lib/rails/rack/log_tailer.rb:14:in `call'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/rack-1.2.4/lib/rack/content_length.rb:13:in `call'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/rack-1.2.4/lib/rack/handler/webrick.rb:52:in `service'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/1.8/webrick/server.rb:162:in `start'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/1.8/webrick/server.rb:95:in `start'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/1.8/webrick/server.rb:92:in `each'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/1.8/webrick/server.rb:92:in `start'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/1.8/webrick/server.rb:23:in `start'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/1.8/webrick/server.rb:82:in `start'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/rack-1.2.4/lib/rack/handler/webrick.rb:13:in `run'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/rack-1.2.4/lib/rack/server.rb:217:in `start'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/railties-3.0.9/lib/rails/commands/server.rb:65:in `start'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/railties-3.0.9/lib/rails/commands.rb:30
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/railties-3.0.9/lib/rails/commands.rb:27:in `tap'
+e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/railties-3.0.9/lib/rails/commands.rb:27
+script/rails:6:in `require'
+script/rails:6
+Rendered example/home.html.haml within layouts/example (32.0ms)
+Completed 500 Internal Server Error in 50ms
+
+ActionView::Template::Error (compile error
+e:/workspace/sample/app/views/layouts/example.html.haml:4: syntax error, unexpected kENSURE, expecting $end):
+    1: - content_for :stylesheet
+    2:  :css
+    3:          body{
+    4:                  padding:0;
+    5:                  margin:0;
+    6:                  }
+    7:          #wrapper {
+  app/views/layouts/example.html.haml:4:in `compile'
+
+Rendered e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.er
+b (3.0ms)
+Rendered e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb withi
+n rescues/layout (17.0ms)
+
+
+Started GET "/example/home" for 127.0.0.1 at Thu Dec 01 16:03:07 +0530 2011
+  Processing by ExampleController#home as HTML
+Rendered example/home.html.haml within layouts/example (4.0ms)
+Completed 200 OK in 21ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/example/home" for 127.0.0.1 at Thu Dec 01 16:04:02 +0530 2011
+  Processing by ExampleController#home as HTML
+Rendered example/home.html.haml within layouts/example (15.6ms)
+Completed 500 Internal Server Error in 31ms
+
+ActionView::Template::Error (Missing template /application with {:handlers=>[:rjs, :haml, :builder, :rhtml, :erb, :rxml], :formats=>[:html], :locale=>
+[:en, :en]} in view paths "e:/workspace/sample/app/views", "e:/workspace/sample", "e:/"):
+    48:                         width:900px;
+    49:                         margin:auto;
+    50:                         }
+    51: = render :file => "application"
+    52:
+    53:
+  app/views/layouts/example.html.haml:51:in `_app_views_layouts_example_html_haml___414429493_123439200_0'
+
+Rendered e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+Rendered e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.er
+b (0.0ms)
+Rendered e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb withi
+n rescues/layout (15.6ms)
+
+
+Started GET "/example/home" for 127.0.0.1 at Thu Dec 01 16:04:27 +0530 2011
+  Processing by ExampleController#home as HTML
+Rendered layouts/application.html.haml (0.0ms)
+Rendered example/home.html.haml within layouts/example (15.6ms)
+Completed 500 Internal Server Error in 31ms
+
+ActionView::Template::Error (Inconsistent indentation: 1 tab was used for indentation, but the rest of the document was indented using 2 spaces.):
+    1: !!!
+    2: %html
+    3:   %title
+    4:  New nameSample
+    5:   = stylesheet_link_tag :all
+    6:   = yield :stylsheet
+    7:   = javascript_include_tag :defaults
+  app/views/layouts/application.html.haml:4
+  app/views/layouts/example.html.haml:51:in `_app_views_layouts_example_html_haml___414429493_122983488_0'
+
+Rendered e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+Rendered e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.er
+b (0.0ms)
+Rendered e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb withi
+n rescues/layout (15.6ms)
+
+
+Started GET "/example/home" for 127.0.0.1 at Thu Dec 01 16:04:30 +0530 2011
+  Processing by ExampleController#home as HTML
+Rendered layouts/application.html.haml (15.6ms)
+Rendered example/home.html.haml within layouts/example (15.6ms)
+Completed 500 Internal Server Error in 31ms
+
+ActionView::Template::Error (Inconsistent indentation: 1 tab was used for indentation, but the rest of the document was indented using 2 spaces.):
+    1: !!!
+    2: %html
+    3:   %title
+    4:  New nameSample
+    5:   = stylesheet_link_tag :all
+    6:   = yield :stylsheet
+    7:   = javascript_include_tag :defaults
+  app/views/layouts/application.html.haml:4
+  app/views/layouts/example.html.haml:51:in `_app_views_layouts_example_html_haml___414429493_123946200_0'
+
+Rendered e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+Rendered e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.er
+b (0.0ms)
+Rendered e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb withi
+n rescues/layout (15.6ms)
+[2011-12-01 16:04:30] ERROR Errno::ECONNABORTED: An established connection was aborted by the software in your host machine.
+        e:/RailsInstaller/Ruby1.8.7/lib/ruby/1.8/webrick/httpresponse.rb:324:in `write'
+        e:/RailsInstaller/Ruby1.8.7/lib/ruby/1.8/webrick/httpresponse.rb:324:in `<<'
+        e:/RailsInstaller/Ruby1.8.7/lib/ruby/1.8/webrick/httpresponse.rb:324:in `_write_data'
+        e:/RailsInstaller/Ruby1.8.7/lib/ruby/1.8/webrick/httpresponse.rb:296:in `send_body_string'
+        e:/RailsInstaller/Ruby1.8.7/lib/ruby/1.8/webrick/httpresponse.rb:187:in `send_body'
+        e:/RailsInstaller/Ruby1.8.7/lib/ruby/1.8/webrick/httpresponse.rb:104:in `send_response'
+        e:/RailsInstaller/Ruby1.8.7/lib/ruby/1.8/webrick/httpserver.rb:79:in `run'
+        e:/RailsInstaller/Ruby1.8.7/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+        e:/RailsInstaller/Ruby1.8.7/lib/ruby/1.8/webrick/server.rb:162:in `start'
+        e:/RailsInstaller/Ruby1.8.7/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+        e:/RailsInstaller/Ruby1.8.7/lib/ruby/1.8/webrick/server.rb:95:in `start'
+        e:/RailsInstaller/Ruby1.8.7/lib/ruby/1.8/webrick/server.rb:92:in `each'
+        e:/RailsInstaller/Ruby1.8.7/lib/ruby/1.8/webrick/server.rb:92:in `start'
+        e:/RailsInstaller/Ruby1.8.7/lib/ruby/1.8/webrick/server.rb:23:in `start'
+        e:/RailsInstaller/Ruby1.8.7/lib/ruby/1.8/webrick/server.rb:82:in `start'
+        e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/rack-1.2.4/lib/rack/handler/webrick.rb:13:in `run'
+        e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/rack-1.2.4/lib/rack/server.rb:217:in `start'
+        e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/railties-3.0.9/lib/rails/commands/server.rb:65:in `start'
+        e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/railties-3.0.9/lib/rails/commands.rb:30
+        e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/railties-3.0.9/lib/rails/commands.rb:27:in `tap'
+        e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/railties-3.0.9/lib/rails/commands.rb:27
+        script/rails:6:in `require'
+        script/rails:6
+
+
+Started GET "/example/home" for 127.0.0.1 at Thu Dec 01 16:04:32 +0530 2011
+  Processing by ExampleController#home as HTML
+Rendered layouts/application.html.haml (0.0ms)
+Rendered example/home.html.haml within layouts/example (15.6ms)
+Completed 500 Internal Server Error in 31ms
+
+ActionView::Template::Error (Inconsistent indentation: 1 tab was used for indentation, but the rest of the document was indented using 2 spaces.):
+    1: !!!
+    2: %html
+    3:   %title
+    4:  New nameSample
+    5:   = stylesheet_link_tag :all
+    6:   = yield :stylsheet
+    7:   = javascript_include_tag :defaults
+  app/views/layouts/application.html.haml:4
+  app/views/layouts/example.html.haml:51:in `_app_views_layouts_example_html_haml___414429493_123470184_0'
+
+Rendered e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+Rendered e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.er
+b (15.6ms)
+Rendered e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb withi
+n rescues/layout (15.6ms)
+
+
+Started GET "/example/home" for 127.0.0.1 at Thu Dec 01 16:06:00 +0530 2011
+  Processing by ExampleController#home as HTML
+Rendered layouts/application.html.haml (15.6ms)
+Rendered example/home.html.haml within layouts/example (15.6ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/example/home" for 127.0.0.1 at Thu Dec 01 16:06:59 +0530 2011
+  Processing by ExampleController#home as HTML
+Rendered layouts/application.html.haml (5.0ms)
+Rendered example/home.html.haml within layouts/example (15.0ms)
+Completed 200 OK in 31ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/example/home" for 127.0.0.1 at Thu Dec 01 16:07:03 +0530 2011
+  Processing by ExampleController#home as HTML
+Rendered layouts/application.html.haml (0.0ms)
+Rendered example/home.html.haml within layouts/example (15.6ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/example/home" for 127.0.0.1 at Thu Dec 01 16:10:45 +0530 2011
+  Processing by ExampleController#home as HTML
+Rendered shared/_header.html.haml (4.0ms)
+Rendered shared/_footer.html.haml (4.0ms)
+Rendered layouts/application.html.haml (31.0ms)
+Rendered example/home.html.haml within layouts/example (62.0ms)
+Completed 200 OK in 79ms (Views: 79.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/example/home" for 127.0.0.1 at Thu Dec 01 16:25:57 +0530 2011
+  Processing by ExampleController#home as HTML
+Rendered shared/_header.html.haml (4.0ms)
+Rendered shared/_footer.html.haml (3.0ms)
+Rendered layouts/application.html.haml (4.0ms)
+Rendered example/home.html.haml within layouts/example (31.0ms)
+Completed 200 OK in 50ms (Views: 49.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/example/home" for 127.0.0.1 at Thu Dec 01 16:31:12 +0530 2011
+  Processing by ExampleController#home as HTML
+Rendered shared/_header.html.haml (4.0ms)
+Rendered shared/_footer.html.haml (3.0ms)
+Rendered layouts/application.html.haml (5.0ms)
+Rendered example/home.html.haml within layouts/example (60.0ms)
+Completed 200 OK in 78ms (Views: 77.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/example/home" for 127.0.0.1 at Thu Dec 01 17:29:17 +0530 2011
+  Processing by ExampleController#home as HTML
+Rendered shared/_header.html.haml (4.0ms)
+Rendered shared/_footer.html.haml (3.0ms)
+Rendered layouts/application.html.haml (4.0ms)
+Rendered example/home.html.haml within layouts/example (32.0ms)
+Completed 200 OK in 50ms (Views: 50.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/example/index2" for 127.0.0.1 at Thu Dec 01 17:29:20 +0530 2011
+  Processing by ExampleController#index2 as HTML
+Rendered shared/_header.html.haml (5.0ms)
+Rendered shared/_footer.html.haml (5.0ms)
+Rendered layouts/application.html.haml (6.0ms)
+Rendered example/index2.html.haml within layouts/example (37.0ms)
+Completed 200 OK in 55ms (Views: 55.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/example/index2" for 127.0.0.1 at Thu Dec 01 17:33:07 +0530 2011
+  Processing by ExampleController#index2 as HTML
+Rendered example/index2.html.haml within layouts/example (6.0ms)
+Completed 500 Internal Server Error in 30ms
+
+ActionView::Template::Error (undefined local variable or method `result' for #<#<Class:0xeb785c0>:0xeb774e0>):
+    2:  index 2
+    3: %div
+    4:  final answer is
+    5:  =result
+    6:  -result
+    7:  =12 * 3
+    8: %p
+  app/views/example/index2.html.haml:5:in `_app_views_example_index__html_haml___23527928_123447348_0'
+
+Rendered e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.er
+b (3.0ms)
+Rendered e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb withi
+n rescues/layout (21.0ms)
+
+
+Started GET "/example/index2" for 127.0.0.1 at Thu Dec 01 17:33:17 +0530 2011
+  Processing by ExampleController#index2 as HTML
+Rendered example/index2.html.haml within layouts/example (6.0ms)
+Completed 500 Internal Server Error in 26ms
+
+ActionView::Template::Error (undefined local variable or method `result' for #<#<Class:0xebc53a8>:0xebc42b0>):
+    2:  index 2
+    3: %div
+    4:  final answer is
+    5:  =result
+    6:  -result
+    7:  =12*3
+    8: %p
+  app/views/example/index2.html.haml:5:in `_app_views_example_index__html_haml___23527928_123607332_0'
+
+Rendered e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.er
+b (3.0ms)
+Rendered e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb withi
+n rescues/layout (41.0ms)
+
+
+Started GET "/example/index2" for 127.0.0.1 at Thu Dec 01 17:33:36 +0530 2011
+  Processing by ExampleController#index2 as HTML
+Rendered example/index2.html.haml within layouts/example (5.0ms)
+Completed 500 Internal Server Error in 29ms
+
+ActionView::Template::Error (undefined local variable or method `result' for #<#<Class:0xec59c38>:0xec58b40>):
+    1: %h1
+    2:  index 2
+    3: %div
+    4:  -result
+    5:  =12*3
+    6:  final answer is
+    7:  =result
+  app/views/example/index2.html.haml:4:in `_app_views_example_index__html_haml___23527928_123911556_0'
+
+Rendered e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.er
+b (3.0ms)
+Rendered e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb withi
+n rescues/layout (21.0ms)
+
+
+Started GET "/example/index2" for 127.0.0.1 at Thu Dec 01 17:33:51 +0530 2011
+  Processing by ExampleController#index2 as HTML
+Rendered shared/_header.html.haml (4.0ms)
+Rendered shared/_footer.html.haml (3.0ms)
+Rendered layouts/application.html.haml (28.0ms)
+Rendered example/index2.html.haml within layouts/example (56.0ms)
+Completed 200 OK in 73ms (Views: 72.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/example/index2" for 127.0.0.1 at Thu Dec 01 17:34:43 +0530 2011
+  Processing by ExampleController#index2 as HTML
+Rendered example/index2.html.haml within layouts/example (5.0ms)
+Completed 500 Internal Server Error in 28ms
+
+ActionView::Template::Error (undefined local variable or method `home' for #<#<Class:0xec05f68>:0xec04eb8>):
+    1: %h1
+    2:  index 2
+    3: %div
+    4:  -result=home*index
+    5:  final answer is
+    6:  =result
+    7:
+  app/views/example/index2.html.haml:4:in `_app_views_example_index__html_haml___23527928_123739944_0'
+
+Rendered e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.er
+b (3.0ms)
+Rendered e:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb withi
+n rescues/layout (43.0ms)
+
+
+Started GET "/example/index2" for 127.0.0.1 at Thu Dec 01 17:35:04 +0530 2011
+  Processing by ExampleController#index2 as HTML
+Rendered shared/_header.html.haml (3.0ms)
+Rendered shared/_footer.html.haml (3.0ms)
+Rendered layouts/application.html.haml (4.0ms)
+Rendered example/index2.html.haml within layouts/example (31.0ms)
+Completed 200 OK in 52ms (Views: 52.0ms | ActiveRecord: 0.0ms)

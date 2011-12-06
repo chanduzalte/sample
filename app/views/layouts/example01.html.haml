@@ -1,0 +1,7 @@
+- content_for :body do
+	#wrapper
+		= render :partial => "shared/header"
+		#container
+			= yield
+	=render :partial => "shared/footer"
+= render :file => "layouts/application"

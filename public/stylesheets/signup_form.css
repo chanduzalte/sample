@@ -1,0 +1,92 @@
+.signup_form{
+	height:100%;
+	width:100%;
+	}
+.facebook{
+	height:25px;
+	width:195px;
+	margin: 0 auto;
+	}
+.signup_form p {
+	font:italic 12px/28px Georgia, "Times New Roman", Times, serif;
+	text-align:center;
+	}
+.or{
+	font:italic 18px/28px Georgia, "Times New Roman", Times, serif;
+	color:#888888;
+	text-align:center;
+	}
+.or span{
+	background:#888888;
+	height:1px;
+	width:40%;
+	display:block;
+	float:left;
+	margin:15px 0 0 0;
+	}
+.or .text_or{float:left;
+	margin:0 10px
+	}
+.form_head{
+	text-align:left !important;
+	font-size:14px !important;
+	margin:10px 0 20px 0;
+	}
+.text_field{
+	width:140px;
+	height:22px;
+	background:url(../images/text_box.jpg) no-repeat;
+	padding:0px 10px;
+	margin:0px;
+	border:none;
+	}
+form p lable{
+	display:block;
+	float:left;
+	text-align:center;
+	line-height:22px;
+	color:#444444;
+	font:italic 12px/22px Georgia, "Times New Roman", Times, serif;
+	text-align:left;
+	}
+form p .text_field{
+	display:block;
+	float:right;}
+form p{
+	margin:10px 0 0 0;
+}
+.sign_up_blue_btn{
+	width:67px;
+	height:25px;
+	background:url(../images/sign_up_blue_btn.jpg) no-repeat;
+	font:bold 12px/25px Verdana, Geneva, sans-serif;
+	border:0px;
+	outline:none;
+	color:#FFF;
+	padding:0px;
+	cursor:pointer;
+	margin-top:15px;
+	float:right;
+	
+	}
+.list_menu{
+	display:block;
+	float:right;
+	background: url("../images/text_box.jpg") no-repeat scroll 0 0 transparent;
+    border: medium none;
+    height: 22px;
+    margin: 0;
+    margin: 0 180px 0 0;
+    width: 160px;
+	}
+.radio_btns{
+   float: left;
+    margin:0 0 5px 55px;
+    width: 200px;
+}
+.radio_btns p{
+	margin:2px 0 0 0;
+	color:#888888;
+	font:11px/18px Verdana, Geneva, sans-serif;}
+
+

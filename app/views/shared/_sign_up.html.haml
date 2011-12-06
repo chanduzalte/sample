@@ -1,0 +1,45 @@
+.signup_form
+	.facebook
+		%a{:href=>"http://www.facebook.com/"}
+			%img{:src=>"../images/facebook.jpg", :title=>"Sign Up With Facebook", :alt=>"Sign Up With Facebook"}
+	%p
+		In Just 1 Click and 10 seconds
+	.or
+		%span
+		.text_or
+			OR
+		%span
+	.cf
+	%form{:action=>"", :method=>"post"}
+		%p.form_head
+			%strong
+				Sign up with your Email
+		%p
+			%lable
+				Name
+			%input.text_field{:name => "123", :type => "text", :value => "", :title=>"Type Your Name Here"}/
+		.cf
+		%p
+			%lable
+				Last Name
+			%input.text_field{:name => "123", :type => "text", :value => "", :title=>"Type Your Last Name Here"}/
+		.cf
+		%p
+			%lable
+				Email
+			%input.text_field{:name => "123", :type => "text", :value => "", :title=>"Type Your Email Here"}/
+		.cf
+		%p
+			%lable
+				Confirm Email
+			%input.text_field{:name => "123", :type => "text", :value => "", :title=>"Type Your Confirm Email Here"}/
+		.cf	
+		%p
+			%lable
+				Email
+			%input.text_field{:name => "123", :type => "text", :value => "", :title=>"Type Your Password Here"}/
+		.cf
+		%p
+			%input.btnsubmit_green.sign_up_blue_btn{:name => "sign_up", :type => "submit", :value => "Sign Up"}/
+
+		.cf

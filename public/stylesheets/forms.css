@@ -1,0 +1,56 @@
+.checkbox {
+	float: left;
+	height: 15px;
+	margin: 1px 10px 0 0;
+}
+.btnsubmit_green{
+	background: url("../images/submit_btn_bg.jpg") repeat-x scroll transparent;
+	color:#ffffff;
+	border: 1px solid #116688;
+	cursor: pointer;
+	font:bold 12px/28px Verdana, Geneva, sans-serif;
+	height: 28px;
+	padding: 0 10px;
+	float:right;
+
+}
+.btnsubmit_green:hover{
+	color:#222222;
+	background: url("../images/sign_btn_bg.jpg") repeat-x scroll 0 0 transparent;
+	border: 1px solid #D69D00 ;
+
+}
+.btnsubmit {
+	background: url("../images/sign_btn_bg.jpg") repeat-x scroll transparent;
+	border: 1px solid #D69D00;
+	color: #222222;
+	cursor: pointer;
+	font:bold 12px/28px Verdana, Geneva, sans-serif;
+	height: 28px;
+	padding: 0 10px;
+	float:right;
+}
+.btnsubmit:hover{
+	background: url("../images/submit_btn_bg.jpg") repeat-x scroll 0 0 transparent;
+	border: 1px solid #116688;
+	color: #ffffff;
+
+}
+.suggest_form p{
+	float:left;
+	display:inline;
+	width:168px;
+	margin:0px 0 10px 0 !important;
+	
+}
+.suggest_form p select{	
+	color:#888888;
+	padding:2px 0 0 8px;
+	margin:0;
+	float:left;
+	width:142px;
+	}
+.suggest_form p.right{
+	float:right;
+	width:142px;
+	} 

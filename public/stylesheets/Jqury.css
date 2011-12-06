@@ -1,0 +1,79 @@
+.cf {
+	clear:both;
+	}
+img {
+	outline:none;
+	border:none;
+	}
+#menu{
+	margin-top:100px;
+	}
+#menu a{
+	width:103px;
+	height:74px;
+	display:block;
+	float:left;
+	position:relative;
+	text-decoration:none;
+}
+
+#menu a span {
+     background: none repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    display: none;
+    font: bold 12px/20px Georgia,"Times New Roman",Times,serif;
+    height: 124px;
+    left: 0;
+    padding: 10px 10px 0;
+    position: absolute;
+    top: -68px;
+    width: 482px;
+}
+#menu a span.show{
+	background:url(../images/fig.jpg) no-repeat;
+	text-indent:0;
+	cursor:auto;
+
+	display:block;
+	position:relative;
+	width:80px;
+	height:60px;
+}
+.a {
+	background:url(../images/careers.jpg) no-repeat center center;
+	width:103px !important;
+	height:74px !important;
+	}
+.b {
+	background:url(../images/events.jpg) no-repeat center center;
+	width:103px !important;
+	height:74px !important;
+	}
+.c {
+	background:url(../images/colleges.jpg) no-repeat center center;
+	width:103px !important;
+	height:74px !important;
+	}
+.d {
+	background:url(../images/scholar.jpg) no-repeat center center;
+	width:103px !important;
+	height:74px !important;
+	}
+
+
+.fig {
+    background: url("../images/fig.png") no-repeat scroll 0 0 transparent !important;
+    height: 90px !important;
+    margin: 115px 0 0 124px;
+    position: absolute;
+    width: 110px !important;
+}
+.slider_started
+{
+	height:200px;
+	margin:20px 0 0 0;
+	width:100%;
+}
+.slider_started ul
+{
+	list-style:none;}

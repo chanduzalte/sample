@@ -1,0 +1,70 @@
+%form{:action=>"", :method=>"post"}
+	.user_head
+		.img
+			%img{:src=>"../../images/user.jpg"}
+		%h3
+			Let's get started, Ratandeep
+		.cf
+		%h4
+			Just tell us a few things about you and start seeing suggestions
+			%br/
+			just for you. 
+	
+		%p
+			%lable
+				State
+			%select.list_menu{:name=>"Option01", :title=>"Type Your City Name Here"}
+				%option{:value=>""}
+				%option{:value=>""}
+					Maharashtra
+				%option{:value=>""}
+					Panjab
+				%option{:value=>""}
+					Hariyana
+		.cf
+		%p
+			%lable
+				City
+			%select.list_menu{:name=>"Option01", :title=>"Type Your City Name Here"}
+				%option{:value=>""}
+				%option{:value=>""}
+					Pune
+				%option{:value=>""}
+					Mumbai
+				%option{:value=>""}
+					Aurangabad
+		.cf
+		%p
+			%lable
+				What stage
+				%br/
+				are you in?
+		.radio_btns
+			%p
+				%input{:type=>"radio", :name=>"RadioGroup", :value=>"radio"}/
+				%label
+					Class 10 or below
+			.cf
+			%p
+				%input{:type=>"radio", :name=>"RadioGroup", :value=>"radio"}/
+				%label
+					Class 12 or below
+			.cf
+			%p
+				%input{:type=>"radio", :name=>"RadioGroup", :value=>"radio"}/
+				%label
+					Undergraduate College
+			.cf
+			%p
+				%input{:type=>"radio", :name=>"RadioGroup", :value=>"radio"}/
+				%label
+					Postgraduate College
+			.cf
+			%p
+				%input{:type=>"radio", :name=>"RadioGroup", :value=>"radio"}/
+				%label
+					Working
+	.cf
+	=render :partial => "shared/image_slider_started"
+
+							
